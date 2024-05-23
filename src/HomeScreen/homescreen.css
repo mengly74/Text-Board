@@ -1,0 +1,219 @@
+@media only screen and (max-width: 2280px){
+    body{
+        background-image: url("/photo/bg-homescreen.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .wrapper{
+        width: 100%;
+        height: 100%;
+    }
+    .createnew{
+        /* padding-top: 5%; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-board{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        color:rgb(255, 255, 255);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 100px;
+        margin-right: 450px;
+    }
+    .btn-about{
+        background-image: url(/photo/btn-bg.png);
+        color: aliceblue;
+        width: 100%;
+        background-size: cover;
+        border-radius: 25px;
+        margin-left: 300px;
+        border: none;
+        font-size: 90px;
+        cursor: pointer;
+    }
+    .trendingTheme{
+        /* padding-top: 5%; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-trend{
+        color:rgb(255, 255, 255);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /* margin-top: 5%; */
+        margin-right: 30%;
+        font-size: 100px;
+    }
+    .recent{
+        /* padding-top: 5%; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-recent{
+        color:rgb(255, 255, 255);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /* margin-top: 5%; */
+        margin-right: 50%;
+        font-size: 100px;
+    }
+    .btn{
+        background-image: url(/photo/button.png);
+        background-size: cover;
+        border: none;
+        margin-top: 5%;
+        border-radius: 30px;
+        height: 350px;
+        width: 450px;
+        cursor: pointer;
+    }
+    .btn1{
+        background-image: url(/photo/trending1.png);
+        background-size: cover;
+        border: none;
+        margin-top: 5%;
+        border-radius: 30px;
+        height: 350px;
+        width: 450px;
+        cursor: pointer;
+    }
+    .btn2{
+        background-image: url(/photo/trending2.png);
+        background-size: cover;
+        border: none;
+        margin-top: 5%;
+        border-radius: 30px;
+        height: 350px;
+        width: 450px;
+        cursor: pointer;
+    }
+    .btn3{
+        background-image: url(/photo/trending3.png);
+        background-size: cover;
+        border: none;
+        margin-top: 5%;
+        border-radius: 30px;
+        height: 350px;
+        width: 450px;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 991px) {
+    body{
+        background-image: url(/photo/bg-homescreen-mobile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .wrapper{
+        width: 100%;
+        height: 100%;
+    }
+    .createnew{
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-board{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        color:rgb(255, 255, 255);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: x-large;
+        margin-right: 75px;
+    }
+    .btn-about{
+        background-image: url(/photo/btn-bg.png);
+        color: aliceblue;
+        background-size: cover;
+        border-radius: 10px;
+        margin-left: 2px;
+        border: none;
+        font-size: large;
+        cursor: pointer;
+    }
+    .trendingTheme{
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-trend{
+        color:rgb(255, 255, 255);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: x-large;
+        margin-top: 5%;
+        margin-right: 35%;
+    }
+    .recent{
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-recent{
+        color:rgb(255, 255, 255);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: x-large;
+        margin-top: 5%;
+        margin-right: 75%;
+    }
+    .btn{
+        background-image: url(/photo/button.png);
+        background-size: cover;
+        border: none;
+        margin-top: 5%;
+        border-radius: 20px;
+        height: 100px;
+        width: 120px;
+        cursor: pointer;
+    }
+    .btn1{
+        background-image: url(/photo/trending1.png);
+        background-size: cover;
+        border: none;
+        margin-top: 5%;
+        border-radius: 20px;
+        height: 100px;
+        width: 120px;
+        cursor: pointer;
+    }
+    .btn2{
+        background-image: url(/photo/trending2.png);
+        background-size: cover;
+        border: none;
+        margin-top: 5%;
+        border-radius: 20px;
+        height: 100px;
+        width: 120px;
+        cursor: pointer;
+    }
+    .btn3{
+        background-image: url(/photo/trending3.png);
+        background-size: cover;
+        border: none;
+        margin-top: 5%;
+        border-radius: 30px;
+        height: 100px;
+        width: 120px;
+        cursor: pointer;
+    }
+}

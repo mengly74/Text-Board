@@ -1,0 +1,104 @@
+@media only screen and (max-width: 2280px){
+    body{
+        background-image: url("/photo/bg-homescreen.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        margin-top: 2%;
+        font-size: 250px;
+        font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(246, 200, 62);
+    }
+    .board{
+        font-size: 250px;
+        font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(246, 106, 41);
+    }
+    .btn{
+        height: 150px;
+        width: 650px;
+        color: aliceblue;
+        font-size: 100px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border-radius: 10px;
+        border: none;
+        margin: 7px 0 0 0;
+        background-image: url(/photo/btn-style.png);
+        background-size: cover;
+        cursor: pointer;
+    }
+    .btn:hover {
+        height: 150px;
+        width: 650px;
+        color: aliceblue;
+        font-size: 100px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border-radius: 10px;
+        border: none;
+        margin: 7px 0 0 0;
+        background-image: url(/photo/btn-bg.png);
+        background-size: cover;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 991px) {
+    body{
+        background-image: url("/photo/bg-homescreen-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        margin-top: 75%;
+        font-size: 65px;
+        font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(246, 200, 62);
+    }
+    .board{
+        font-size: 65px;
+        font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(246, 106, 41);
+    }
+    .btn{
+        height: 50px;
+        width: 100px;
+        color: aliceblue;
+        font-size: xx-large;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border-radius: 10px;
+        border: none;
+        margin: 7px 0 0 0;
+        background-image: url(/photo/btn-style.png);
+        background-size: cover;
+        cursor: pointer;
+    }
+    .btn:hover {
+        height: 50px;
+        width: 100px;
+        color: aliceblue;
+        font-size: xx-large;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border-radius: 10px;
+        border: none;
+        margin: 7px 0 0 0;
+        background-image: url(/photo/btn-bg.png);
+        background-size: cover;
+        cursor: pointer;
+    }
+}
